@@ -133,6 +133,7 @@ def parse_youmind(source: Source, payload: bytes) -> list[dict[str, Any]]:
         if not prompt:
             continue
         images = extract_images(source, tokens)
+        category = title.split(" - ", 1)[0] if " - " in title else ""
         author, _author_url = labeled_link(tokens, "作者")
         _source_name, item_url = labeled_link(tokens, "来源")
         result.append(
@@ -144,7 +145,7 @@ def parse_youmind(source: Source, payload: bytes) -> list[dict[str, Any]]:
                 description=paragraph_after_heading(tokens, "描述"),
                 cover_url=images[0] if images else "",
                 reference_image_urls=images,
-                tags=[source.model, author],
+                tags=[source.model, category, author],
                 author=author,
                 source_url=item_url,
                 created_at=published_date(tokens),

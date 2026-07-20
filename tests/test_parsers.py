@@ -124,7 +124,7 @@ A short description.
 
 def test_youmind_markdown_reads_description_date_and_prompt() -> None:
     payload = """
-### No. 7: Diagram
+### No. 7: Education - Diagram
 
 #### Description
 A useful diagram.
@@ -143,10 +143,11 @@ Create a detailed diagram.
 - **Published:** 2026年4月19日
 """.replace("Description", "描述").replace("Prompt", "提示词").replace("Images", "生成图片").replace("Details", "详情").replace("Author", "作者").replace("Source", "来源").replace("Published", "发布时间").encode()
     item = parse_youmind(source("youmind-markdown", model="gpt-image-2"), payload)[0]
-    assert item["title"] == "Diagram"
+    assert item["title"] == "Education - Diagram"
     assert item["description"] == "A useful diagram."
     assert item["createdAt"] == "2026-04-19"
     assert item["sourceUrl"] == "https://example.com/post"
+    assert item["tags"] == ["gpt-image-2", "Education", "Carol"]
 
 
 def test_youmind_keeps_different_prompts_with_the_same_number() -> None:
