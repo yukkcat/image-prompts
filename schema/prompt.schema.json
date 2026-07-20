@@ -1,0 +1,47 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:image-prompt-registry:prompt",
+  "title": "Image prompt registry item",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "id",
+    "sourceId",
+    "title",
+    "prompt",
+    "description",
+    "coverUrl",
+    "referenceImageUrls",
+    "tags",
+    "author",
+    "sourceUrl",
+    "createdAt",
+    "imageMode",
+    "imageModel"
+  ],
+  "properties": {
+    "id": { "type": "string", "pattern": "^[a-z0-9-]+:[a-f0-9]{16}$" },
+    "sourceId": { "type": "string", "pattern": "^[a-z0-9-]+$" },
+    "title": { "type": "string", "minLength": 1 },
+    "prompt": { "type": "string", "minLength": 1 },
+    "description": { "type": "string" },
+    "coverUrl": { "type": "string" },
+    "referenceImageUrls": {
+      "type": "array",
+      "items": { "type": "string", "pattern": "^https?://" },
+      "uniqueItems": true
+    },
+    "tags": {
+      "type": "array",
+      "items": { "type": "string", "minLength": 1 },
+      "uniqueItems": true
+    },
+    "author": { "type": "string" },
+    "sourceUrl": { "type": "string", "pattern": "^https?://" },
+    "createdAt": { "type": "string" },
+    "imageMode": { "type": "string" },
+    "imageModel": { "type": "string" },
+    "imageSize": { "type": "string" },
+    "imageCount": { "type": "integer", "minimum": 1 }
+  }
+}

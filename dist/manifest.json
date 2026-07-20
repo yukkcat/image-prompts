@@ -1,0 +1,63 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-07-20T08:17:42+00:00",
+  "registryHash": "8f496d0868c21e0a0a3457f7034e7e952eec42a072055aa5909a8d905a576d83",
+  "total": 1201,
+  "promptsPath": "prompts.json",
+  "sources": [
+    {
+      "id": "banana-prompt-quicker",
+      "name": "Banana Prompt Quicker",
+      "homepage": "https://glidea.github.io/banana-prompt-quicker/",
+      "upstreamUrl": "https://glidea.github.io/banana-prompt-quicker/prompts.json",
+      "count": 323,
+      "path": "sources/banana-prompt-quicker.json",
+      "sha256": "0ae590d56820d1d9716691e96410ee6869dec28a7261de397f74ad2f6cbedda5"
+    },
+    {
+      "id": "davidwu-gpt-image2-prompts",
+      "name": "DavidWu GPT Image 2 Prompts",
+      "homepage": "https://github.com/davidwuw0811-boop/awesome-gpt-image2-prompts",
+      "upstreamUrl": "https://raw.githubusercontent.com/davidwuw0811-boop/awesome-gpt-image2-prompts/main/prompts.json",
+      "count": 494,
+      "path": "sources/davidwu-gpt-image2-prompts.json",
+      "sha256": "bc61473b87e53acd514d14e1936f3490fe7d9db3cf004d5730dda9f28cda1dbf"
+    },
+    {
+      "id": "awesome-gpt-image",
+      "name": "Awesome GPT Image",
+      "homepage": "https://github.com/ZeroLu/awesome-gpt-image",
+      "upstreamUrl": "https://raw.githubusercontent.com/ZeroLu/awesome-gpt-image/main/README.zh-CN.md",
+      "count": 53,
+      "path": "sources/awesome-gpt-image.json",
+      "sha256": "e5508cad635279cd2c9ddda70d422ad9de8700e7e349e463f2fe433e562a99ec"
+    },
+    {
+      "id": "awesome-gpt4o-image-prompts",
+      "name": "Awesome GPT-4o Image Prompts",
+      "homepage": "https://github.com/ImgEdify/Awesome-GPT4o-Image-Prompts",
+      "upstreamUrl": "https://raw.githubusercontent.com/ImgEdify/Awesome-GPT4o-Image-Prompts/main/README.zh-CN.md",
+      "count": 76,
+      "path": "sources/awesome-gpt4o-image-prompts.json",
+      "sha256": "ece926584179496d426bd9703c0ea30a13b89a9ce0101bb340056d049e58979d"
+    },
+    {
+      "id": "youmind-gpt-image-2",
+      "name": "YouMind GPT Image 2",
+      "homepage": "https://github.com/YouMind-OpenLab/awesome-gpt-image-2",
+      "upstreamUrl": "https://raw.githubusercontent.com/YouMind-OpenLab/awesome-gpt-image-2/main/README_zh.md",
+      "count": 126,
+      "path": "sources/youmind-gpt-image-2.json",
+      "sha256": "ee1ab64aa18e9af61267d2eb7cf1609f9f2d66e41afa347cff7668fe7f1a9cb9"
+    },
+    {
+      "id": "youmind-nano-banana-pro",
+      "name": "YouMind Nano Banana Pro",
+      "homepage": "https://github.com/YouMind-OpenLab/awesome-nano-banana-pro-prompts",
+      "upstreamUrl": "https://raw.githubusercontent.com/YouMind-OpenLab/awesome-nano-banana-pro-prompts/main/README_zh.md",
+      "count": 129,
+      "path": "sources/youmind-nano-banana-pro.json",
+      "sha256": "af90532f73ec2d82af8dc23067adc8a21a75d8bbc7151bc2ab19be83fc8ca4fd"
+    }
+  ]
+}

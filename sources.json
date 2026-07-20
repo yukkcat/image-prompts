@@ -1,0 +1,52 @@
+[
+  {
+    "id": "banana-prompt-quicker",
+    "name": "Banana Prompt Quicker",
+    "adapter": "banana-json",
+    "url": "https://glidea.github.io/banana-prompt-quicker/prompts.json",
+    "homepage": "https://glidea.github.io/banana-prompt-quicker/",
+    "minimumItems": 250
+  },
+  {
+    "id": "davidwu-gpt-image2-prompts",
+    "name": "DavidWu GPT Image 2 Prompts",
+    "adapter": "davidwu-json",
+    "url": "https://raw.githubusercontent.com/davidwuw0811-boop/awesome-gpt-image2-prompts/main/prompts.json",
+    "homepage": "https://github.com/davidwuw0811-boop/awesome-gpt-image2-prompts",
+    "minimumItems": 400
+  },
+  {
+    "id": "awesome-gpt-image",
+    "name": "Awesome GPT Image",
+    "adapter": "awesome-gpt-image-markdown",
+    "url": "https://raw.githubusercontent.com/ZeroLu/awesome-gpt-image/main/README.zh-CN.md",
+    "homepage": "https://github.com/ZeroLu/awesome-gpt-image",
+    "minimumItems": 40
+  },
+  {
+    "id": "awesome-gpt4o-image-prompts",
+    "name": "Awesome GPT-4o Image Prompts",
+    "adapter": "awesome-gpt4o-markdown",
+    "url": "https://raw.githubusercontent.com/ImgEdify/Awesome-GPT4o-Image-Prompts/main/README.zh-CN.md",
+    "homepage": "https://github.com/ImgEdify/Awesome-GPT4o-Image-Prompts",
+    "minimumItems": 60
+  },
+  {
+    "id": "youmind-gpt-image-2",
+    "name": "YouMind GPT Image 2",
+    "adapter": "youmind-markdown",
+    "url": "https://raw.githubusercontent.com/YouMind-OpenLab/awesome-gpt-image-2/main/README_zh.md",
+    "homepage": "https://github.com/YouMind-OpenLab/awesome-gpt-image-2",
+    "minimumItems": 100,
+    "model": "gpt-image-2"
+  },
+  {
+    "id": "youmind-nano-banana-pro",
+    "name": "YouMind Nano Banana Pro",
+    "adapter": "youmind-markdown",
+    "url": "https://raw.githubusercontent.com/YouMind-OpenLab/awesome-nano-banana-pro-prompts/main/README_zh.md",
+    "homepage": "https://github.com/YouMind-OpenLab/awesome-nano-banana-pro-prompts",
+    "minimumItems": 100,
+    "model": "nano-banana-pro"
+  }
+]
