@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-21T06:05:06+00:00",
-  "registryHash": "2a9afdd3cb3f2edb0c6bdaa637c25bf4aca5d2fdbaab269f4c73ffc8c14dbd08",
+  "generatedAt": "2026-07-22T06:03:59+00:00",
+  "registryHash": "6ba687dc6525904c144e987b2c233d3b3e245070cb6e1feb98e023c1d426f2bf",
   "total": 1201,
   "promptsPath": "prompts.json",
   "sources": [
@@ -48,7 +48,7 @@
       "upstreamUrl": "https://raw.githubusercontent.com/YouMind-OpenLab/awesome-gpt-image-2/main/README_zh.md",
       "count": 126,
       "path": "sources/youmind-gpt-image-2.json",
-      "sha256": "c6b11a01f17d3ec1545e1ab51fe72c97c5f78620c27d9273695f35410c9b9197"
+      "sha256": "ade53f57823c86ce43793f53975be8b20502988f26da84292ab0a3139093710d"
     },
     {
       "id": "youmind-nano-banana-pro",
@@ -57,7 +57,7 @@
       "upstreamUrl": "https://raw.githubusercontent.com/YouMind-OpenLab/awesome-nano-banana-pro-prompts/main/README_zh.md",
       "count": 129,
       "path": "sources/youmind-nano-banana-pro.json",
-      "sha256": "072355a774a578d6cc3d73f746dd9ed825b3cad9825b7c16c58cdfbf6ebb3a09"
+      "sha256": "42ddf9334ee51c8a4f76920894ec4dfb3e339c0e0f91a9ae7d55b3527f9a7f07"
     }
   ]
 }
