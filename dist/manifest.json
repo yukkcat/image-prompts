@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-11T04:38:17+00:00",
-  "registryHash": "c9caad60c049a155fa436a0328c50cad2b5f6d218bccad4ac30053dea69e81c7",
-  "total": 1201,
+  "generatedAt": "2026-08-11T04:45:42+00:00",
+  "registryHash": "e9ccfc78f779b60daf5184faa827ed25fa16a8bcabf30ba29ca8bc88786988f1",
+  "total": 1718,
   "promptsPath": "prompts.json",
   "sources": [
     {
@@ -22,6 +22,15 @@
       "count": 494,
       "path": "sources/davidwu-gpt-image2-prompts.json",
       "sha256": "bc61473b87e53acd514d14e1936f3490fe7d9db3cf004d5730dda9f28cda1dbf"
+    },
+    {
+      "id": "freestylefly-gpt-image-2",
+      "name": "Freestylefly GPT Image 2",
+      "homepage": "https://github.com/freestylefly/awesome-gpt-image-2",
+      "upstreamUrl": "https://raw.githubusercontent.com/freestylefly/awesome-gpt-image-2/main/data/cases.json",
+      "count": 517,
+      "path": "sources/freestylefly-gpt-image-2.json",
+      "sha256": "c0655f8cadf62f28448851cc9f71588db07a6c71a62452c5484cb6bf2edc71b1"
     },
     {
       "id": "awesome-gpt-image",

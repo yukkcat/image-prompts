@@ -16,6 +16,15 @@
     "minimumItems": 400
   },
   {
+    "id": "freestylefly-gpt-image-2",
+    "name": "Freestylefly GPT Image 2",
+    "adapter": "freestylefly-json",
+    "url": "https://raw.githubusercontent.com/freestylefly/awesome-gpt-image-2/main/data/cases.json",
+    "homepage": "https://github.com/freestylefly/awesome-gpt-image-2",
+    "minimumItems": 400,
+    "model": "gpt-image-2"
+  },
+  {
     "id": "awesome-gpt-image",
     "name": "Awesome GPT Image",
     "adapter": "awesome-gpt-image-markdown",

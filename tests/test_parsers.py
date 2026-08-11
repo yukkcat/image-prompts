@@ -1,8 +1,12 @@
+import pytest
+
 from prompt_registry.models import Source
 from prompt_registry.parsers import (
     parse_awesome_gpt4o,
     parse_awesome_gpt_image,
     parse_banana_json,
+    parse_freestylefly_json,
+    parse_source,
     parse_youmind,
 )
 
@@ -37,6 +41,71 @@ def test_banana_json_maps_reference_data() -> None:
     assert item["title"] == "Poster"
     assert item["referenceImageUrls"] == ["https://example.com/ref.png"]
     assert item["tags"] == ["Work", "Poster", "Author"]
+
+
+def test_freestylefly_json_maps_case_data() -> None:
+    payload = b'''{
+      "cases": [
+        {
+          "id": 7,
+          "title": "Architecture",
+          "image": "/images/case7.jpg",
+          "sourceLabel": "Alice",
+          "sourceUrl": "",
+          "prompt": "Create an architectural rendering.",
+          "category": "Architecture & Spaces",
+          "styles": ["3D"],
+          "scenes": ["Commerce"],
+          "featured": true,
+          "githubUrl": "https://github.com/example/repo/blob/main/gallery.md#case-7"
+        }
+      ]
+    }'''
+    item = parse_freestylefly_json(
+        Source(
+            id="test-source",
+            name="Test",
+            adapter="freestylefly-json",
+            url="https://raw.githubusercontent.com/example/repo/main/data/cases.json",
+            homepage="https://github.com/example/repo",
+            minimum_items=1,
+            model="gpt-image-2",
+        ),
+        payload,
+    )[0]
+    image_url = "https://raw.githubusercontent.com/example/repo/main/data/images/case7.jpg"
+    assert item["coverUrl"] == image_url
+    assert item["referenceImageUrls"] == [image_url]
+    assert item["sourceUrl"] == "https://github.com/example/repo/blob/main/gallery.md#case-7"
+    assert item["author"] == "Alice"
+    assert item["tags"] == [
+        "gpt-image-2",
+        "Architecture & Spaces",
+        "3D",
+        "Commerce",
+        "featured",
+    ]
+    assert item["imageModel"] == "gpt-image-2"
+
+
+def test_parse_source_rejects_results_below_minimum_items() -> None:
+    configured_source = Source(
+        id="test-source",
+        name="Test",
+        adapter="freestylefly-json",
+        url="https://raw.githubusercontent.com/example/repo/main/data/cases.json",
+        homepage="https://github.com/example/repo",
+        minimum_items=2,
+        model="gpt-image-2",
+    )
+    payload = b'''{
+      "cases": [
+        {"id": 1, "title": "Only case", "prompt": "Create an image."}
+      ]
+    }'''
+
+    with pytest.raises(ValueError, match="produced 1 items; expected at least 2"):
+        parse_source(configured_source, payload)
 
 
 def test_awesome_markdown_uses_fenced_prompt_and_images() -> None:

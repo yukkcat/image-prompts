@@ -72,6 +72,39 @@ def parse_davidwu_json(source: Source, payload: bytes) -> list[dict[str, Any]]:
     return deduplicate(result)
 
 
+def parse_freestylefly_json(source: Source, payload: bytes) -> list[dict[str, Any]]:
+    data = json.loads(payload.decode("utf-8-sig"))
+    cases = data.get("cases") if isinstance(data, dict) else None
+    if not isinstance(cases, list) or not all(isinstance(item, dict) for item in cases):
+        raise ValueError(f"{source.id} must contain a cases array of objects")
+
+    result = []
+    for item in cases:
+        image = inline(item.get("image")).lstrip("/")
+        tags = [
+            source.model,
+            item.get("category"),
+            *array(item.get("styles")),
+            *array(item.get("scenes")),
+        ]
+        if item.get("featured") is True:
+            tags.append("featured")
+        result.append(
+            make_prompt(
+                source,
+                raw_id=item.get("id"),
+                title=item.get("title"),
+                prompt=item.get("prompt"),
+                cover_url=image,
+                reference_image_urls=[image] if image else [],
+                tags=tags,
+                author=item.get("sourceLabel"),
+                source_url=item.get("sourceUrl") or item.get("githubUrl"),
+            )
+        )
+    return deduplicate(result)
+
+
 def parse_awesome_gpt_image(source: Source, payload: bytes) -> list[dict[str, Any]]:
     result = []
     for title, category, tokens in markdown_sections(decode(payload)):
@@ -358,6 +391,7 @@ def clean_category(value: str) -> str:
 PARSERS: dict[str, Callable[[Source, bytes], list[dict[str, Any]]]] = {
     "banana-json": parse_banana_json,
     "davidwu-json": parse_davidwu_json,
+    "freestylefly-json": parse_freestylefly_json,
     "awesome-gpt-image-markdown": parse_awesome_gpt_image,
     "awesome-gpt4o-markdown": parse_awesome_gpt4o,
     "youmind-markdown": parse_youmind,

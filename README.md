@@ -6,6 +6,7 @@
 
 - Banana Prompt Quicker
 - DavidWu GPT Image 2 Prompts
+- Freestylefly GPT Image 2
 - Awesome GPT Image
 - Awesome GPT-4o Image Prompts
 - YouMind GPT Image 2
