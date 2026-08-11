@@ -1,30 +1,64 @@
 # Image Prompt Registry
 
-集中抓取、解析和校验公开图片提示词来源，并发布统一格式的静态 JSON。Infinite Canvas、Codex Skills 或其他前端可以直接读取生成结果，不必各自维护来源解析器。
+[Simplified Chinese](README.zh-CN.md) | [Prompt record specification](docs/prompt-format.md) | [JSON Schema](schema/prompt.schema.json)
 
-## 内置来源
+Image Prompt Registry collects public image-prompt sources, normalizes their records, validates them, and publishes static JSON for downstream applications. Consumers such as Infinite Canvas, Codex skills, websites, and local tools can read one stable format instead of maintaining a parser for every upstream source.
 
-- Banana Prompt Quicker
-- DavidWu GPT Image 2 Prompts
-- Freestylefly GPT Image 2
-- Awesome GPT Image
-- Awesome GPT-4o Image Prompts
-- YouMind GPT Image 2
-- YouMind Nano Banana Pro
+## Published data
 
-来源配置位于 `sources.json`。同步任务要求所有来源都达到最低条目数；任一来源抓取或解析失败时，不会覆盖上一版 `dist` 数据。
+Each successful sync writes the following files:
 
-## 使用数据
+- `dist/manifest.json`: registry version, generation time, item count, source metadata, paths, and SHA-256 checksums.
+- `dist/prompts.json`: every normalized prompt record in one JSON array.
+- `dist/sources/<source-id>.json`: one JSON array for each configured source.
 
-同步后生成：
+Start with `dist/manifest.json`. Use `promptsPath` for the combined registry or select a source entry and fetch its `path`. Verify a source payload with its `sha256` value when integrity matters.
 
-- `dist/manifest.json`：版本、总数、来源列表、文件路径和 SHA-256。
-- `dist/prompts.json`：全部提示词。
-- `dist/sources/<source-id>.json`：按来源拆分的提示词。
+The generated files can be served through GitHub Raw, GitHub Pages, jsDelivr, or any static file host.
 
-消费者应先读取 `manifest.json`，再根据 `path` 获取所需来源。仓库发布到 GitHub 后，可以通过 GitHub Raw、GitHub Pages 或 jsDelivr 读取这些文件。
+## Prompt record
 
-## 本地同步
+Every record follows schema version 1 and is validated against `schema/prompt.schema.json` before any generated file is replaced.
+
+```json
+{
+  "id": "example-source:0123456789abcdef",
+  "sourceId": "example-source",
+  "title": "Editorial product portrait",
+  "prompt": "Create an editorial product portrait with soft window light.",
+  "description": "",
+  "coverUrl": "https://example.com/cover.jpg",
+  "referenceImageUrls": [],
+  "tags": ["editorial", "portrait"],
+  "author": "Example Author",
+  "sourceUrl": "https://example.com/original-prompt",
+  "createdAt": "2026-08-11",
+  "imageMode": "generate",
+  "imageModel": "gpt-image-2"
+}
+```
+
+The full contract, including field semantics, empty-value rules, normalization, stable ID generation, and compatibility requirements, is documented in [Prompt Record Format](docs/prompt-format.md).
+
+## Included sources
+
+Source definitions live in `sources.json`.
+
+| Source ID | Source | Default model |
+| --- | --- | --- |
+| `banana-prompt-quicker` | Banana Prompt Quicker | Unspecified |
+| `davidwu-gpt-image2-prompts` | DavidWu GPT Image 2 Prompts | Set by the adapter |
+| `freestylefly-gpt-image-2` | Freestylefly GPT Image 2 | `gpt-image-2` |
+| `awesome-gpt-image` | Awesome GPT Image | Set by the adapter |
+| `awesome-gpt4o-image-prompts` | Awesome GPT-4o Image Prompts | Set by the adapter |
+| `youmind-gpt-image-2` | YouMind GPT Image 2 | `gpt-image-2` |
+| `youmind-nano-banana-pro` | YouMind Nano Banana Pro | `nano-banana-pro` |
+
+Each source declares a minimum expected item count. A failed request, parse error, schema violation, or unexpectedly small result fails the complete sync and preserves the last valid `dist` output.
+
+## Local development
+
+Requirements: Python 3.11 or later.
 
 ```powershell
 python -m venv .venv
@@ -33,20 +67,32 @@ python -m venv .venv
 .\.venv\Scripts\python -m pytest
 ```
 
-只抓取并校验，不写入文件：
+Fetch and validate all sources without writing generated files:
 
 ```powershell
 .\.venv\Scripts\python -m prompt_registry --check
 ```
 
-## 数据字段
+Write generated files to another directory:
 
-每条提示词包含稳定 ID、来源 ID、标题、正文、说明、封面、参考图、标签、作者、原始地址、创建时间和图像模型信息。完整约束见 `schema/prompt.schema.json`。
+```powershell
+.\.venv\Scripts\python -m prompt_registry --output .\build\registry
+```
 
-## 自动更新
+## Adding or changing a source
 
-`.github/workflows/sync.yml` 每天运行一次，也支持手动触发。只有提示词内容或来源元数据发生变化时才会提交新的 `dist` 文件，避免仅因更新时间变化产生无意义提交。
+1. Add or update the source definition in `sources.json`.
+2. Implement or update its adapter in `prompt_registry/parsers.py`.
+3. Normalize records through `prompt_registry.models.make_prompt`.
+4. Add parser fixtures and assertions under `tests/`.
+5. Run the test suite and a network-backed `--check` before publishing.
 
-## 版权
+Do not write source-specific fields directly into generated records. Extend the versioned public schema deliberately when a new cross-source field is required.
 
-同步代码使用 MIT License。提示词和图片仍属于各上游作者或仓库，本仓库不会重新授权这些内容，也不会复制图片文件。详见 `NOTICE.md`。
+## Automated updates
+
+`.github/workflows/sync.yml` runs daily and supports manual dispatch. A sync commits generated files only when normalized prompt content or source metadata changes; a new timestamp alone does not create a commit.
+
+## License and upstream rights
+
+The synchronization code and repository documentation are licensed under the MIT License. Prompts, images, names, and other upstream material remain subject to their original terms. This registry preserves source identifiers and URLs, does not relicense upstream content, and stores image URLs rather than copying image files. See [NOTICE.md](NOTICE.md).

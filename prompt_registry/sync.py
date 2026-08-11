@@ -11,7 +11,7 @@ from pathlib import Path
 from typing import Any
 
 import httpx
-from jsonschema import Draft202012Validator
+from jsonschema import Draft202012Validator, FormatChecker
 
 from .models import Source
 from .parsers import parse_source
@@ -31,7 +31,7 @@ def main() -> int:
 
     sources = load_sources(ROOT / "sources.json")
     schema = json.loads((ROOT / "schema" / "prompt.schema.json").read_text(encoding="utf-8"))
-    validator = Draft202012Validator(schema)
+    validator = Draft202012Validator(schema, format_checker=FormatChecker())
     parsed = fetch_all(sources)
 
     for source in sources:
