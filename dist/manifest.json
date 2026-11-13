@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-12T10:59:20+00:00",
-  "registryHash": "a09ccb88a85bbd9b2702c48720b4df21dbe87992b5f29856c7c21ab93231ea4d",
+  "generatedAt": "2026-11-13T10:53:46+00:00",
+  "registryHash": "9ed913555e05660bcd540a36bb59de95922347e52325034509a92d9fbcaf3664",
   "total": 1742,
   "promptsPath": "prompts.json",
   "sources": [
@@ -66,7 +66,7 @@
       "upstreamUrl": "https://raw.githubusercontent.com/YouMind-OpenLab/awesome-nano-banana-pro-prompts/main/README_zh.md",
       "count": 129,
       "path": "sources/youmind-nano-banana-pro.json",
-      "sha256": "8eb637aab1e88fb72d4ae2dfbc34a5722e495d95447a652a299392b4382f4130"
+      "sha256": "2f267e832c79becfcef93836969b33fdee28761463b924b3f9483a03e66543af"
     }
   ]
 }

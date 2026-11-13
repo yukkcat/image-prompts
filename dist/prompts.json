@@ -36929,7 +36929,30 @@
     "imageModel": "nano-banana-pro"
   },
   {
-    "id": "youmind-nano-banana-pro:6681a2bfa3a68a78",
+    "id": "youmind-nano-banana-pro:d9b7412792c2af01",
+    "sourceId": "youmind-nano-banana-pro",
+    "title": "漫画 / 故事板 - Raven 和 Tiffany 背景研究",
+    "prompt": "{argument name=\"character names\" default=\"Raven 和 Tiffany\"} 第二个故事的背景设定研究，故事发生在一个虚构的美国郊区，带有 {argument name=\"era\" default=\"80、90 年代\"} 的时代气息。场景力求真实写实。",
+    "description": "用于生成带有 80/90 年代元素的虚构美国郊区逼真背景研究的提示词，适用于叙事艺术项目。",
+    "coverUrl": "https://cms-assets.youmind.com/media/1794550851615_w1tinv_HW1ZQHBXsAA1CUS.jpg",
+    "referenceImageUrls": [
+      "https://cms-assets.youmind.com/media/1794550851615_w1tinv_HW1ZQHBXsAA1CUS.jpg",
+      "https://cms-assets.youmind.com/media/1794550852879_tqkwrj_HW1ZQG9WsAA91KD.jpg",
+      "https://cms-assets.youmind.com/media/1794550852827_n0ledv_HW1ZKj5WUAAMfaa.jpg"
+    ],
+    "tags": [
+      "nano-banana-pro",
+      "漫画 / 故事板",
+      "The Image Gardener"
+    ],
+    "author": "The Image Gardener",
+    "sourceUrl": "https://x.com/ImageGardener/status/2120879285892178164",
+    "createdAt": "2026-11-12",
+    "imageMode": "",
+    "imageModel": "nano-banana-pro"
+  },
+  {
+    "id": "youmind-nano-banana-pro:54d5a120c23f99a3",
     "sourceId": "youmind-nano-banana-pro",
     "title": "漫画 / 故事板 - 动漫定格粉彩艺术",
     "prompt": "1980 年代动漫定格画面，粉笔蜡笔画风，拳击手出拳瞬间，汗水飞溅，粗糙纸张纹理",
@@ -36950,7 +36973,7 @@
     "imageModel": "nano-banana-pro"
   },
   {
-    "id": "youmind-nano-banana-pro:a98fb15ab3a2d5e1",
+    "id": "youmind-nano-banana-pro:133be3489e7ab9e2",
     "sourceId": "youmind-nano-banana-pro",
     "title": "漫画 / 故事板 - 带音频和图片轮播的溪边梦境场景",
     "prompt": "场景：我在溪边工作。鸟儿在歌唱。我的妻子加入我，我们一起走到水边，游到一个小岛上休息。对我来说，这种项目工作、科技与日常生活的融合就是梦想。\n\n创建一个图像序列，展示：在溪边工作、行走、水面、小岛和休息的画面。确保画面中的人物保持一致（像用户本人）。在所有镜头中保持自然的光线和透视效果。",
@@ -36971,7 +36994,7 @@
     "imageModel": "nano-banana-pro"
   },
   {
-    "id": "youmind-nano-banana-pro:68cc9db55d831218",
+    "id": "youmind-nano-banana-pro:29a3aad71950ff56",
     "sourceId": "youmind-nano-banana-pro",
     "title": "漫画 / 故事板 - Nano Banana Pro 魔法少女动漫主视觉提示词",
     "prompt": "为魔法少女动漫创建主视觉。将其完善为包含标题 Logo 的精美海报设计。",
@@ -36995,7 +37018,7 @@
     "imageModel": "nano-banana-pro"
   },
   {
-    "id": "youmind-nano-banana-pro:a02749784222e811",
+    "id": "youmind-nano-banana-pro:0876e5d2ca56b480",
     "sourceId": "youmind-nano-banana-pro",
     "title": "漫画 / 故事板 - 现代漫画插画风格提示词",
     "prompt": "采用半写实手法的现代漫画插画风格，结合粗犷的墨线勾勒与干净锐利的边缘，高对比度的动态赛璐璐光影效果，在保持图形化漫画美感的同时对皮肤进行微妙的绘画式融合处理，色彩鲜艳且略带颗粒感，强烈的轮廓光与戏剧性高光，具有英雄比例的风格化解剖结构，细节丰富的头发呈现流动的发丝与锐利的高光，纹理笔触飞溅与墨点装饰以增强动态效果，极简浅色背景以突出主体，电影级构图，超精细细节，高分辨率，图像小说品质。ar 9:16!",
@@ -37019,7 +37042,7 @@
     "imageModel": "nano-banana-pro"
   },
   {
-    "id": "youmind-nano-banana-pro:f639da6b2b2b9151",
+    "id": "youmind-nano-banana-pro:810876f31dbdcb97",
     "sourceId": "youmind-nano-banana-pro",
     "title": "漫画 / 故事板 - 赛博朋克侦探电影剧照",
     "prompt": "{\n  \"title\": \"{argument name=\"title\" default=\"赛博朋克侦探\"}\",\n\n  \"image_description\": \"{argument name=\"description\" default=\"透过被雨水浸湿的车窗看到的电影级赛博朋克场景。霓虹灯的倒影在玻璃上跳动，一位英俊的未来侦探穿着厚重的深色外套坐在驾驶座上。一名身穿发光半透明黄色夹克的女性正看向他。背景中，飞行载具穿梭在雾气弥漫的未来城市里。\"}\",\n\n  \"characters\": [\n    {\n      \"role\": \"未来侦探\",\n      \"position\": \"驾驶座\",\n      \"appearance\": \"英俊，表情严肃，身穿厚重深色外套\",\n      \"focus\": \"清晰对焦\"\n    },\n    {\n      \"role\": \"神秘女性\",\n      \"position\": \"副驾驶座\",\n      \"appearance\": \"深色头发，身穿发光半透明黄色夹克\",\n      \"expression\": \"静静地观察着侦探\",\n      \"focus\": \"略微柔和的对焦\"\n    }\n  ],\n\n  \"setting\": {\n    \"location\": \"未来载具内部\",\n    \"cityscape\": \"雾气弥漫的赛博朋克大都市\",\n    \"background_elements\": [\n      \"飞行载具\",\n      \"霓虹灯广告牌\",\n      \"雨水覆盖的玻璃\",\n      \"全息灯光\"\n    ]\n  },\n\n  \"cinematography\": {\n    \"shot_type\": \"中近景\",\n    \"camera_angle\": \"平视角度\",\n    \"lens\": \"50mm 变形镜头\",\n    \"depth_of_field\": \"浅景深\",\n    \"composition\": \"电影剧照\"\n  },\n\n  \"lighting\": {\n    \"type\": \"电影级布光\",\n    \"effects\": [\n      \"霓虹倒影\",\n      \"体积光\",\n      \"雨水折射\",\n      \"柔和环境光\"\n    ]\n  },\n\n  \"mood\": [\n    \"忧郁\",\n    \"神秘\",\n    \"未来感\",\n    \"情感丰富\"\n  ],\n\n  \"color_palette\": [\n    \"蓝色\",\n    \"青色\",\n    \"黄色\"\n  ],\n\n  \"quality\": {\n    \"style\": \"好莱坞大片\",\n    \"realism\": \"超写实\",\n    \"resolution\": \"8K\",\n    \"details\": [\n      \"完美倒影\",\n      \"照片级真实人脸\",\n      \"胶片颗粒感\",\n      \"体积雾\",\n      \"逼真的景深效果\",\n      \"获奖级摄影\",\n      \"IMAX 品质\",\n      \"电影叙事感\",\n      \"杰作\"\n    ]\n  }\n}",
@@ -37040,7 +37063,7 @@
     "imageModel": "nano-banana-pro"
   },
   {
-    "id": "youmind-nano-banana-pro:90e59c37dd18949a",
+    "id": "youmind-nano-banana-pro:17b4eceea2add723",
     "sourceId": "youmind-nano-banana-pro",
     "title": "漫画 / 故事板 - 单色圆珠笔手绘风格杂志海报",
     "prompt": "将超细节的蓝色圆珠笔插画转换为单色黑色墨水风格，采用密集的交叉排线和精细的阴影处理，呈现复杂的圆珠笔素描质感、极致的线条刻画、雕刻般的轮廓渲染、手绘笔触美学、富有表现力的有机线条、超现实主义编辑构图、高细节面部渲染、分层的速写本构图线条，以及纯白色的复古技术涂鸦和手写笔记，置于 {argument name=\"background color\" default=\"bold red background\"} 之上，白色排版注释融入背景，地下杂志海报美学，原始且不完美的墨迹，鲜艳红色背景下高对比度的黑色墨水主体，实验性平面设计，先锋杂志封面风格 --ar 9:16 --stylize 750。",
@@ -37062,7 +37085,7 @@
     "imageModel": "nano-banana-pro"
   },
   {
-    "id": "youmind-nano-banana-pro:e865f4e7743717e9",
+    "id": "youmind-nano-banana-pro:2d5205c206955afe",
     "sourceId": "youmind-nano-banana-pro",
     "title": "漫画 / 故事板 - 80 岁哈利·波特的冬日场景",
     "prompt": "{\n\"title\": \"{argument name=\\\"title\\\" default=\\\"80 岁的哈利·波特\\\"}\",\n\n\"scene\": \"乡村小屋内一个宁静的冬夜。窗外大雪纷飞，霜花覆盖在窗棂上，温暖的壁炉柔和地照亮了整个房间。\",\n\n\"subject\": \"80 岁的哈利·波特独自坐在破旧的皮椅上，阅读着他一生中收集的一叠褪色的信件。他的脸上写满了智慧、沧桑与历经冒险后的平静。\",\n\n\"detail\": \"他那根著名的魔杖挂在壁炉上方，无人触碰，落满了灰尘。罗恩、赫敏、海格以及霍格沃茨时期的旧照片装饰着房间。一副圆框眼镜放在茶杯旁。旁边的架子上放着一本写着“霍格沃茨”字样的陈旧相册。\",\n\n\"atmosphere\": \"深沉的怀旧感，情感丰富，苦乐参半，宁静，反思\",\n\n\"lighting\": \"温暖的炉火，柔和的阴影，金色光辉，电影般的冬日氛围\",\n\n\"composition\": \"亲密的电影镜头，哈利坐在壁炉旁，背景可见覆盖着积雪的窗户\",\n\n\"style\": \"照片级真实感，电影杰作，好莱坞电影结尾场景，超高细节，胶片颗粒感，浅景深，8K\",\n\n\"mood\": \"大难不死的男孩，终成了铭记往事的老人。\",\n\"image_text\": \"有些魔法永不消逝。\"\n}",
@@ -37083,7 +37106,7 @@
     "imageModel": "nano-banana-pro"
   },
   {
-    "id": "youmind-nano-banana-pro:95d1114680b3cd34",
+    "id": "youmind-nano-banana-pro:ba2a7f03804ebb35",
     "sourceId": "youmind-nano-banana-pro",
     "title": "漫画 / 故事板 - 卡通怪物 Rat Rod 直线竞速赛",
     "prompt": "一幅充满活力的卡通插画，描绘了 {argument name=\"creature\" default=\"一只瞪着大眼、长着尖牙的绿色怪物\"} 正在驾驶一辆经过改装的 {argument name=\"car type\" default=\"粉色大众甲壳虫\"}。车身上装饰着火焰图案，并写有“BEETLE BOMBER”和“RAT ROD”字样。怪物戴着赛车头盔，车身处于腾空状态，后轮胎和排气管喷涌出浓烟与火焰。背景中，一群同样怪异的角色在“DRAG STRIP”标志后欢呼。写有“BEETLE JUICE”、“COLD BEER”和“NITRO”的霓虹灯招牌，为这场直线竞速赛增添了混乱且高能的氛围。艺术风格融合了漫画与涂鸦元素，线条粗犷，色彩饱和。",
@@ -37104,7 +37127,7 @@
     "imageModel": "nano-banana-pro"
   },
   {
-    "id": "youmind-nano-banana-pro:bccb76ce63ab4319",
+    "id": "youmind-nano-banana-pro:25433a76c3d78ee3",
     "sourceId": "youmind-nano-banana-pro",
     "title": "漫画 / 故事板 - 错综复杂的龙之奇幻诗篇",
     "prompt": "双岸记忆之翼\n\n龙不选择世纪。\n是世纪在选择自身，\n穿过由拖延与余晖构成的躯体。\n一翼拖曳着图书馆最后一页未被焚毁的纸张，\n那是在纸张学会自己的名字之前就已陨落的文明。\n另一翼梳理着全息雨幕，\n来自那些尚未决定\n是屹立不倒还是化为传闻的高塔。\n在双翼之间，空气保留着两份历法，\n却忘记了哪一份正在运行。\n它的鳞片比“鳞”这个词本身更为古老。\n它们记得那些尚未点燃的\n熔炉的炽热，\n以及在某种叙述中\n早已熄灭的\n星辰的寒冷。\n符文如同一座城市尚未获得思考资格的念头，\n浮现又沉没。\n每一次光脉冲既是遗迹也是原型。\n下方，街道湿润，承载着已然发生之事\n以及仍在协商抵达之事。\n霓虹灯在曾是冰川耐心的水面上书写，\n而后来，那只会成为关于干渴的传闻。\n地基坐落在森林的静谧之上，\n森林仍梦见自己依然挺立。\n广告牌宣传着明天，\n却已对尚未到来的黄昏感到思乡。\n这生物的双眼承载着唯一诚实的天气：\n一只眼是记忆的翠绿，\n尚不知晓自己已然终结；\n另一只眼是疑问的湛蓝，\n尚未找到将要问出它的那张嘴。\n它们注视我们，如同时间在无人窥视时\n注视着自身——\n没有怜悯，没有判决，\n只有长久的、礼貌的凝视。\n我们生活在它掠过时短暂的气流中，\n那奇特而仁慈的间隙，\n过去尚未与我们了结，\n而未来已开始\n怀念我们尚未失去的一切。\n除了转动，别无承诺：\n那缓慢而明亮的翅膀铰链，\n同时属于每一个时刻，\n却又不完全属于其中任何一个。\n它留下的薄雾既非终结，也非开端。\n那是它们在下一个不确定性\n张开安静而必要的手掌之前，\n短暂相认的地方。",
@@ -37128,7 +37151,7 @@
     "imageModel": "nano-banana-pro"
   },
   {
-    "id": "youmind-nano-banana-pro:996b85019530b381",
+    "id": "youmind-nano-banana-pro:4a45346d5809ae1d",
     "sourceId": "youmind-nano-banana-pro",
     "title": "漫画 / 故事板 - 风格化武术动漫少女",
     "prompt": "一幅风格化的数字动漫插画，描绘了一位神情严肃、目光坚定的东亚少女，双臂交叉抱在胸前。她留着凌乱的黑色短发，部分扎成松散的丸子头，几缕发丝垂在脸颊两侧；她有着深邃传神的双眸和白皙的皮肤。她身穿一件宽松的深森林绿武术和服，内衬为浅鼠尾草绿，袖口宽大且有折叠设计，腰间系着黑色腰带（obi），胸前饰有醒目的金黄色闪电图案。背景采用大胆的黑色、白色和鲜艳的暖黄橙色调，呈现动态的墨迹飞溅效果。作品融合了矢量艺术与漫画插画风格，采用赛璐珞阴影、锐利的轮廓线、写意的笔触、戏剧性的光影以及高对比度，竖构图肖像 --ar 1:2 --v 6.0",
@@ -37149,7 +37172,7 @@
     "imageModel": "nano-banana-pro"
   },
   {
-    "id": "youmind-nano-banana-pro:4408c70b33e76271",
+    "id": "youmind-nano-banana-pro:cd29933cbc06a9dd",
     "sourceId": "youmind-nano-banana-pro",
     "title": "漫画 / 故事板 - 枫糖浆商业广告项目",
     "prompt": "标题：\n高端枫糖浆产品商业广告项目\n\n格式：\n• 单页高端项目\n• 3:4 竖屏比例\n• 高端食品广告\n• 8 个电影级产品特写镜头\n• 产品始终作为核心主角\n• 高端广告代理商演示风格\n\n页眉：\n• 优雅的衬线字体\n• 信息卡片：\n  - 时长：{argument name=\"duration\" default=\"20 秒\"}\n  - 风格：电影级美食商业广告\n  - 产品：{argument name=\"product name\" default=\"纯枫糖浆\"}\n  - 音频：缓慢倾倒声 + 轻柔食物 ASMR\n• “为何这种风格有效”板块\n• {argument name=\"color aesthetic\" default=\"温暖琥珀色、奶油色和深棕色\"} 美学\n• 极简枫叶装饰元素\n\n项目：\n1. 高端枫糖浆瓶矗立在抛光的深色木桌上\n2. 瓶盖开启的极致微距镜头\n3. 金色糖浆从瓶中缓慢流出\n4. 糖浆在半空中形成光亮的丝带状\n5. 糖浆倾泻在松软的煎饼上\n6. 展示浓郁糖浆质感与微小反光的极致微距\n7. 煎饼塔与主角瓶身及枫叶环绕\n8. 伴随戏剧性糖浆倾倒的最终高端产品定格画面\n\n每个分镜：\n• 场景编号\n• 时长标签\n• 运镜方向\n• 视觉画面\n• 动作描述\n• 产品细节\n\n摄影：\n极致微距、慢动作液体摄影、俯拍美食视角、受控推拉镜头、浅景深、电影级主角构图。\n\n风格：\n超写实食品广告、逼真的糖浆粘稠度、光泽金色质感、温暖影棚灯光、高端玻璃包装、精致美食呈现、8K 分辨率。",
@@ -37170,7 +37193,7 @@
     "imageModel": "nano-banana-pro"
   },
   {
-    "id": "youmind-nano-banana-pro:29a6cec03ce4d91c",
+    "id": "youmind-nano-banana-pro:5f7768d67b282e80",
     "sourceId": "youmind-nano-banana-pro",
     "title": "漫画 / 故事板 - 黏土动画风格的变色龙森林",
     "prompt": "这是一个充满活力且奇思妙想的黏土动画场景，描绘了一只色彩斑斓的 {argument name=\"subject\" default=\"chameleon\"} 栖息在茂密梦幻森林中长满苔藓的树枝上。这只变色龙拥有绿色、蓝色、橙色和黄色交织的复杂鳞片，正专注地凝视着左侧。它周围环绕着各种同样由黏土塑造的奇幻动植物，包括发光的蘑菇、花心如眼球般的奇特花朵、带有活动眼珠的怪趣昆虫，以及形状古怪的球状果实。背景是树木和枝叶形成的柔和虚化效果，营造出一种深邃而迷人的氛围。整体呈现出一个栩栩如生的魔法微缩世界。",
@@ -37191,7 +37214,7 @@
     "imageModel": "nano-banana-pro"
   },
   {
-    "id": "youmind-nano-banana-pro:c8da6fe3fdf5a7ba",
+    "id": "youmind-nano-banana-pro:2c8c8d55b169057f",
     "sourceId": "youmind-nano-banana-pro",
     "title": "漫画 / 故事板 - 草莓芝士蛋糕冰淇淋项目",
     "prompt": "标题：\n高端草莓芝士蛋糕冰淇淋产品广告项目\n\n格式：\n• 单页高端项目\n• 3:4 竖屏比例\n• 电影级冷冻甜点广告宣传片\n• 8 个完全不同的产品聚焦场景\n• 产品始终作为核心视觉主体\n• 高端广告代理商演示风格\n\n页眉：\n• 粗体编辑排版\n• 信息卡片：\n\n* 时长：{argument name=\"duration\" default=\"10 秒\"}\n* 风格：电影级甜点广告\n* 产品：{argument name=\"product\" default=\"草莓芝士蛋糕冰淇淋\"}\n* 音频：勺子刮擦声 + 奶油甜点 ASMR\n  • “为何这种风格有效”部分\n  • {argument name=\"color palette\" default=\"柔粉色、草莓红、奶油色和香草色\"} 美学\n  • 极简草莓与甜点主题装饰细节\n\n项目内容：\n\n1. 高端草莓芝士蛋糕冰淇淋桶戏剧性地矗立在冰镇大理石台面上，产品包装正面清晰可见\n2. 打开冰淇淋桶，特写镜头展示盖子被掀开，露出下方奶油质感的冰淇淋\n3. 冰淇淋勺压入表面，展现出丰富的草莓芝士蛋糕层次和逼真的奶油质感\n4. 草莓果肉和芝士蛋糕碎屑嵌入冰淇淋中的极致微距镜头\n5. 新鲜草莓酱缓慢流过完美成型的冰淇淋球，形成光泽感十足的红色丝带\n6. 冰淇淋球被盛入玻璃甜点杯中，细小的芝士蛋糕碎屑自然散落周围\n7. 勺子切开奶油冰淇淋球的特写，露出内部的草莓馅料和柔软的芝士蛋糕块\n8. 最终产品定格镜头，原装冰淇淋桶放置在优雅的甜点杯旁，新鲜草莓、碎屑和草莓酱围绕在产品周围\n\n每个面板：\n• 场景编号\n• 时长标签\n• 运镜方向\n• 视觉画面\n• 动作描述\n• 产品细节\n\n摄像机：\n极致微距美食摄影、平滑的挖勺动作、慢动作草莓酱浇淋、细腻的质感特写、受控的推拉镜头、浅景深、优雅的俯拍构图、电影级最终包装定格。\n\n风格：\n超写实高端冷冻甜点广告、浓郁的奶油冰淇淋质感、逼真的草莓果肉、细腻的芝士蛋糕碎屑、光泽感草莓酱、真实的冷凝水珠、清晰的包装细节、柔和的电影级灯光、奢华的美食造型、专业甜点广告、8K 分辨率。",
@@ -37212,7 +37235,7 @@
     "imageModel": "nano-banana-pro"
   },
   {
-    "id": "youmind-nano-banana-pro:f191e44c0fb52ee3",
+    "id": "youmind-nano-banana-pro:43c1ea90f907c202",
     "sourceId": "youmind-nano-banana-pro",
     "title": "漫画 / 故事板 - 希腊酸奶商业广告项目",
     "prompt": "标题：高端希腊酸奶产品商业广告项目 格式：• 单页高端项目 • 3:4 竖屏比例 • 高端乳制品营销活动 • 8 个以产品为中心的电影级场景 • 产品始终是视觉核心 • 高端广告代理商演示文稿 页眉：• 优雅简洁的排版 • 信息卡片：- 时长：{argument name=\"duration\" default=\"20 秒\"} - 风格：新鲜美食商业广告 - 产品：{argument name=\"product\" default=\"希腊水果酸奶\"} - 音频：勺子 + 奶油质感 ASMR • “为何选择此风格”部分 • 白色、柔粉色和浆果红美学 • 极简水果风装饰元素 项目：1. 高端酸奶杯放置在冰镇大理石上，配以新鲜浆果 2. 酸奶盖被揭开的极致微距镜头 3. 勺子进入浓郁奶油状酸奶中 4. 勺子舀起光滑细腻的部分 5. 新鲜草莓块落入酸奶中 6. 浆果泥在奶油状酸奶中旋转 7. 展示浓郁酸奶质地和水果块的极致微距镜头 8. 最终产品展示，包含酸奶杯、浆果和优雅的勺子构图 每个面板：• 场景编号 • 时长标签 • 摄像机方向 • 视觉效果 • 动作 • 产品细节 摄像机：极致微距、慢动作水果掉落、奶油质地特写、俯视构图、平滑的勺子移动、浅景深、电影级核心构图。风格：超写实乳制品摄影、浓郁奶油质地、逼真的水果块、光泽浆果漩涡、冰镇凝露、柔和的高端光影、简洁包装、高端食品广告、8K。",
@@ -37233,7 +37256,7 @@
     "imageModel": "nano-banana-pro"
   },
   {
-    "id": "youmind-nano-banana-pro:2a14ece723556752",
+    "id": "youmind-nano-banana-pro:5c034190adb9976a",
     "sourceId": "youmind-nano-banana-pro",
     "title": "漫画 / 故事板 - 电影感 2D 动漫插画",
     "prompt": "电影感 2D 数字插画，{argument name=\"style aesthetic\" default=\"精致的半写实动漫美学\"}，干净利落的粗线条，平滑的赛璐珞阴影与柔和的绘画感渐变融合，富有表现力的精细面部渲染，略微夸张的比例，明亮的双眼，自然的皮肤纹理，具有立体感且发丝分明的头发，{argument name=\"lighting\" default=\"温暖的轮廓光，忧郁的青橙色调分级\"}，柔和的复古色调，柔和的环境阴影，轻微的颗粒感，{argument name=\"mood\" default=\"怀旧的 1990 年代/2000 年代杂志海报氛围\"}，大气室内光，高度精致的角色艺术，清晰的细节，深度与电影感构图，竖屏 9:16。",
@@ -37256,7 +37279,7 @@
     "imageModel": "nano-banana-pro"
   },
   {
-    "id": "youmind-nano-banana-pro:0cf07fb6dcdd5b36",
+    "id": "youmind-nano-banana-pro:001eb0aa995d6253",
     "sourceId": "youmind-nano-banana-pro",
     "title": "漫画 / 故事板 - 电影感雨夜车内人像",
     "prompt": "{ \"title\": \"电影感雨夜人像\", \"description\": \"一张充满情感的电影感人像，透过雨夜霓虹城市中起雾且布满雨水的车窗拍摄。一位美丽的年轻女性独自坐在后座，神情忧郁而遥远地望着窗外。她轻轻地在起雾的玻璃上画了一个小爱心，窗外色彩斑斓的城市灯光在雨滴后变得模糊，营造出一种孤独、怀旧与静谧沉思的氛围。\", \"prompt\": \"一张电影感雨夜人像，透过起雾且布满雨水的车窗拍摄。一位美丽的年轻女性在暴雨中独自坐在车后座，神情忧郁而遥远地望着窗外。她用手指轻轻在起雾的玻璃上画了一个小爱心。雨滴顺着窗户流下，使背景中色彩斑斓的城市灯光和霓虹灯招牌变得扭曲。柔和的蓝色与温暖的橙色霓虹灯反射照亮了她的脸庞和湿润的玻璃。情感孤独，静谧哀伤，电影叙事感，真实的皮肤纹理，可见的毛孔，自然妆容，微乱的头发，富有表现力的眼睛，浅景深，梦幻虚化，柔焦效果，逼真的反射，氛围照明，模拟胶片颗粒，电影级调色，照片级真实感，摄影杰作，超细节，85mm 镜头，f/1.4，获奖人像，情感视觉诗，8k。\", \"style\": [ \"电影摄影\", \"照片级真实感\", \"模拟胶片美学\", \"情感视觉叙事\", \"新黑色电影氛围\" ], \"negative_prompt\": \"动漫，卡通，CGI，3D 渲染，低质量，面部模糊，多余的手指，糟糕的解剖结构，不真实的皮肤，色彩过饱和，水印，文字，Logo，人物重复，手部扭曲，塑料感皮肤\" }",
@@ -37277,7 +37300,7 @@
     "imageModel": "nano-banana-pro"
   },
   {
-    "id": "youmind-nano-banana-pro:a2ce985f168ccc73",
+    "id": "youmind-nano-banana-pro:eebdc42642f9b4f4",
     "sourceId": "youmind-nano-banana-pro",
     "title": "漫画 / 故事板 - 高端酸奶商业广告项目",
     "prompt": "标题：\n高端希腊酸奶产品商业广告项目\n\n格式：\n• 单页高端项目\n• 3:4 竖屏比例\n• 高端乳制品营销活动\n• 8 个电影级产品特写场景\n• 产品始终作为视觉核心\n• 豪华广告代理商演示风格\n\n页眉：\n• 优雅简洁的排版\n• 信息卡片：\n  - 时长：{argument name=\"duration\" default=\"20 秒\"}\n  - 风格：新鲜美食商业广告\n  - 产品：{argument name=\"product name\" default=\"希腊水果酸奶\"}\n  - 音频：勺子 + 奶油质感 ASMR\n• 为什么这种风格有效部分\n• {argument name=\"color aesthetic\" default=\"白色、柔粉色和浆果红美学\"}\n• 简约的水果灵感装饰元素\n\n项目：\n1. 高端酸奶杯放置在冰镇大理石上，配以新鲜浆果\n2. 极致微距拍摄酸奶盖被揭开的过程\n3. 勺子进入浓郁的奶油酸奶中\n4. 勺子舀起顺滑有光泽的酸奶\n5. 新鲜草莓块掉入酸奶中\n6. 浆果泥在奶油酸奶中旋转\n7. 极致微距展示浓稠的酸奶质地和水果块\n8. 最终产品定格画面，包含酸奶杯、浆果和优雅的勺子构图\n\n每个面板：\n• 场景编号\n• 时长标签\n• 镜头方向\n• 视觉效果\n• 动作\n• 产品细节\n\n镜头：\n极致微距、慢动作水果掉落、奶油质地特写、俯视构图、平滑的勺子移动、浅景深、电影级主角构图。\n\n风格：\n超写实乳制品美食摄影、浓郁奶油质感、逼真的水果块、光泽浆果漩涡、冰镇冷凝水珠、柔和的高端光影、简洁包装、豪华食品广告、8K 分辨率。",
@@ -37293,27 +37316,6 @@
     ],
     "author": "𝐌",
     "sourceUrl": "https://x.com/Strength04_X/status/2096204332895261103",
-    "createdAt": "2026-09-05",
-    "imageMode": "",
-    "imageModel": "nano-banana-pro"
-  },
-  {
-    "id": "youmind-nano-banana-pro:cae7995e633aebeb",
-    "sourceId": "youmind-nano-banana-pro",
-    "title": "漫画 / 故事板 - 家庭晚餐电影感联络表",
-    "prompt": "{\n  \"title\": \"温馨家庭晚餐电影感联络表\",\n  \"format\": \"3x3 联络表拼贴\",\n  \"subject\": \"{argument name=\"subject\" default=\"一位留着自然波浪卷深色头发的年轻女性，身穿宽松的棕色亚麻衬衫，坐在温馨家庭晚餐的木制餐桌旁\"}\",\n  \"environment\": \"{argument name=\"environment\" default=\"传统的家庭餐厅，复古壁纸，摆满盘子和玻璃器皿的木制中式餐柜，温暖的钨丝灯照明，真实的居家氛围\"}\",\n  \"composition\": {\n    \"grid\": \"3x3 分镜画面\",\n    \"shots\": [\n      \"中景：用富有表现力的手势交谈\",\n      \"特写：自然地大笑\",\n      \"侧面：从砂锅中盛取千层面\",\n      \"特写：托腮倾听\",\n      \"中景：低头吃晚餐\",\n      \"特写：带着俏皮的表情品尝食物\",\n      \"中景：讲述生动的故事\",\n      \"特写：拿着叉子温柔地微笑\",\n      \"远景：交谈后独自坐在餐桌旁\"\n    ]\n  },\n  \"camera\": {\n    \"lens\": \"50mm 和 85mm 定焦镜头\",\n    \"depth_of_field\": \"浅景深\",\n    \"focus\": \"主体清晰对焦，背景呈现奶油般虚化\",\n    \"framing\": \"多角度电影感覆盖\"\n  },\n  \"lighting\": {\n    \"type\": \"温暖的实用居家照明\",\n    \"color_temperature\": \"3200K\",\n    \"mood\": \"温馨、亲密、怀旧\",\n    \"shadows\": \"柔和的自然阴影\"\n  },\n  \"style\": {\n    \"photorealistic\": true,\n    \"cinematic\": true,\n    \"natural_expressions\": true,\n    \"slice_of_life\": true,\n    \"authentic_human_moments\": true,\n    \"award_winning_film_still\": true\n  },\n  \"color_grading\": {\n    \"palette\": \"{argument name=\"palette\" default=\"暖琥珀色、棕色、奶油色、米色\"}\",\n    \"contrast\": \"柔和的电影感对比度\",\n    \"look\": \"Kodak Vision3 胶片模拟\"\n  },\n  \"details\": [\n    \"真诚的笑声\",\n    \"自然的眼神交流\",\n    \"细微的面部表情\",\n    \"真实的皮肤纹理\",\n    \"木制餐具家具\",\n    \"家常菜肴\",\n    \"纪实摄影风格\",\n    \"家庭聚会氛围\"\n  ],\n  \"quality\": {\n    \"resolution\": \"8K\",\n    \"detail\": \"超精细\",\n    \"realism\": \"超写实\"\n  },\n  \"negative_prompt\": [\n    \"动漫\",\n    \"卡通\",\n    \"CGI\",\n    \"塑料感皮肤\",\n    \"过度处理的面部\",\n    \"低分辨率\",\n    \"多余的手指\",\n    \"扭曲的解剖结构\",\n    \"文字\",\n    \"水印\",\n    \"标志\"\n  ]\n}",
-    "description": "一个结构化的 JSON 提示词，用于生成具有 Kodak 胶片模拟效果的 3x3 家庭晚餐场景写实电影感拼贴图。",
-    "coverUrl": "https://cms-assets.youmind.com/media/1788676673943_9krm5d_HRcrK6SbcAApp-f.jpg",
-    "referenceImageUrls": [
-      "https://cms-assets.youmind.com/media/1788676673943_9krm5d_HRcrK6SbcAApp-f.jpg"
-    ],
-    "tags": [
-      "nano-banana-pro",
-      "漫画 / 故事板",
-      "Compound Learning - Tech | Science"
-    ],
-    "author": "Compound Learning - Tech | Science",
-    "sourceUrl": "https://x.com/SheBuildsAI_/status/2096191621838864712",
     "createdAt": "2026-09-05",
     "imageMode": "",
     "imageModel": "nano-banana-pro"
