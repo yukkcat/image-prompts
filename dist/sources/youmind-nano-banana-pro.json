@@ -651,12 +651,12 @@
     "title": "社交媒体帖子 - 极简几何海报提示词",
     "prompt": "请将我上传的每一张照片分别制作成一张独立的高端极简海报，不要将多张图片拼合在一起。\n\n采用 3:4 竖版构图，上下区域严格各占画面高度的 50%。\n\n上半部分保留原图的主体形态、真实质感、自然光影与色彩氛围，仅做轻微的杂志摄影级调色。背景可顺应比例自然延展，但切勿拉伸、变形或改动主体。\n\n下半部分以米色为底，提取主体最具辨识度的轮廓，用简洁的几何图形、平涂色块与细线条重新演绎。色彩直接取自原图；省去繁杂细节，但务必保留一眼即识的核心特征。\n\n大面积留白，主体居中，构图克制且均衡。可点缀少量英文标题、数字或年份。整体需呈现国际设计工作室及艺术展海报的水准：现代、静谧、富有艺术感。避免写实插画风、卡通感、廉价矢量感、电商风以及模板化痕迹。",
     "description": "此提示词可将上传的照片转化为高端极简主义海报。设计将画布一分为二：上半部分保留原始照片并施加微妙的色彩分级，下半部分采用米色背景，展示从照片中提炼出的简化几何主体形象，强调留白与现代艺术展览美学。",
-    "coverUrl": "https://cms-assets.youmind.com/media/1795760458373_jaeevn_HYG9jc8aQAAV6IW.jpg",
+    "coverUrl": "https://cms-assets.youmind.com/media/1795846751072_z71x66_HYG9jc8aQAAV6IW.jpg",
     "referenceImageUrls": [
-      "https://cms-assets.youmind.com/media/1795760458373_jaeevn_HYG9jc8aQAAV6IW.jpg",
-      "https://cms-assets.youmind.com/media/1795760458617_x4xtez_HYG9jc8agAA8aM3.jpg",
-      "https://cms-assets.youmind.com/media/1795760458621_qtkwij_HYG9jdGbcAAP55X.jpg",
-      "https://cms-assets.youmind.com/media/1795760459324_cjqer9_HYG9jc7boAAGTK-.jpg"
+      "https://cms-assets.youmind.com/media/1795846751072_z71x66_HYG9jc8aQAAV6IW.jpg",
+      "https://cms-assets.youmind.com/media/1795846751062_9mxpsk_HYG9jc8agAA8aM3.jpg",
+      "https://cms-assets.youmind.com/media/1795846749606_olm0q9_HYG9jdGbcAAP55X.jpg",
+      "https://cms-assets.youmind.com/media/1795846750352_oatz3u_HYG9jc7boAAGTK-.jpg"
     ],
     "tags": [
       "nano-banana-pro",
@@ -675,12 +675,12 @@
     "title": "社交媒体帖子 - 艺术摄影海报提示词",
     "prompt": "使用上传的照片，创作一张 3:4 竖版艺术摄影双联画海报。画面仅由上下两个等高的区域构成，水平分割线固定在画布总高度的 50% 处，无边框、无间隙。\n\n上半部分完整呈现原始摄影作品：保留主体的身份特征、数量、姿态、结构、关键物体关系、自然光影与色彩。仅作克制的杂志级摄影调色；允许轻微裁切或背景延展，但不得拉伸人物或改变动作。上半部分不添加任何文字或装饰。\n\n下半部分创作“暖灰胶片折页”摄影拼贴：以干净平整、近乎纯白的浅暖灰色 #F6F3ED 为底色。保留真实的摄影颗粒感、细腻的明暗过渡与镜面反光。将图像转化为低饱和度的暖灰、银灰、烟褐色调，并透出淡淡的原始色彩残影。高光略微褪去，暗部保留细节。避免黑白阈值化、浓重的复古棕褐滤镜以及卡通化风格。仅在图像切片内部保留细腻的胶片颗粒与极淡的扫描纹理；留白区域保持纯净。\n\n将主体及必要环境拆分为 {argument name=\"slice count\" default=\"7\"} 个细长的摄影切片，采用垂直或微倾的长条形态，而非横向锯齿状碎条。中间 3 个切片组合成清晰可辨的核心主体，左右两侧各 2 个切片以小角度向外展开，宛如一组铺开的影像折页。切片须保持平面摄影图像的质感；切勿生成实体书、3D 纸雕、折纸模型或立体物件。相邻切片轻微交叠，仅最外侧两个切片带有极淡的摄影重影，营造时光流逝之感。中心主体必须清晰，不可将多张面孔或手部堆叠成新的畸形。切片间的细微缝隙由纸张底色自然透出，无需添加轮廓线、折痕线或投影。\n\n整体拼贴应形成一个连贯、重心偏低、略带不对称的水平聚落，宽度约占整个画布的 55-60%，高度不超过下半部分高度的 40%。视觉重心位于下半部分高度约 65% 的位置。上方留出大面积静谧的空白，左右两侧保持宽阔的留白。不要将切片放大至填满整个版面。保留主体最关键的识别轮廓；次要背景可以省略。照片中重要的物品及其与主体的关系必须清晰可读。\n\n整体呈现应具备安静、克制的高级编辑类摄影气质，带有一丝老胶片的记忆感。禁止添加胶带、印章、贴纸、图标、色块、边框、散落碎片、满版纹理、梦幻柔焦、矢量扁平插画，或丧失摄影质感的表现形式。",
     "description": "这是一个详细的提示词，用于基于上传的照片创作一张 3:4 竖版艺术摄影海报。它将画布分为上下两部分：上半部分保留原始照片并应用杂志风格的调色；下半部分呈现“暖灰色胶片折叠”拼贴效果，将主体切割成七条垂直切片，并在干净背景上呈扇形排列。",
-    "coverUrl": "https://cms-assets.youmind.com/media/1795760458753_tdz64i_HYGOOXUbsAAeYLE.jpg",
+    "coverUrl": "https://cms-assets.youmind.com/media/1795846750962_j00b78_HYGOOXUbsAAeYLE.jpg",
     "referenceImageUrls": [
-      "https://cms-assets.youmind.com/media/1795760458753_tdz64i_HYGOOXUbsAAeYLE.jpg",
-      "https://cms-assets.youmind.com/media/1795760457109_vjoyxt_HYGOOXSboAAHUU8.jpg",
-      "https://cms-assets.youmind.com/media/1795760458615_mocwro_HYGOOXSbsAA_Z5Y.jpg",
-      "https://cms-assets.youmind.com/media/1795760457973_m6czwo_HYGOOXVaAAAiPx7.jpg"
+      "https://cms-assets.youmind.com/media/1795846750962_j00b78_HYGOOXUbsAAeYLE.jpg",
+      "https://cms-assets.youmind.com/media/1795846751143_5xt2vf_HYGOOXSboAAHUU8.jpg",
+      "https://cms-assets.youmind.com/media/1795846750835_c65dko_HYGOOXSbsAA_Z5Y.jpg",
+      "https://cms-assets.youmind.com/media/1795846751775_ejvxdo_HYGOOXVaAAAiPx7.jpg"
     ],
     "tags": [
       "nano-banana-pro",
@@ -2665,7 +2665,28 @@
     "imageModel": "nano-banana-pro"
   },
   {
-    "id": "youmind-nano-banana-pro:8b77d2b9eedda659",
+    "id": "youmind-nano-banana-pro:fba27e09f8bf17f6",
+    "sourceId": "youmind-nano-banana-pro",
+    "title": "游戏素材 - 利用木制人偶锁定面部与姿势",
+    "prompt": "图 2 是一个木质绘画人偶，仅用于展示身体姿势：请完全照搬该姿势（包括头部、躯干、手臂、双手、双腿、双脚、每只手的具体动作以及镜头角度），但不要照搬人偶本身：不要出现木质纹理、关节结构或空白面部。",
+    "description": "使用木制人偶图像作为姿势参考，同时保留原始面部特征的技术，兼容 Nano Banana Pro。",
+    "coverUrl": "https://cms-assets.youmind.com/media/1795846751294_d8z4er_HYIsaFAXUAAEBLb.jpg",
+    "referenceImageUrls": [
+      "https://cms-assets.youmind.com/media/1795846751294_d8z4er_HYIsaFAXUAAEBLb.jpg"
+    ],
+    "tags": [
+      "nano-banana-pro",
+      "游戏素材",
+      "逍遥猫|给 Agent 做产品"
+    ],
+    "author": "逍遥猫|给 Agent 做产品",
+    "sourceUrl": "https://x.com/leisurecat111/status/2126310826822824439",
+    "createdAt": "2026-11-27",
+    "imageMode": "",
+    "imageModel": "nano-banana-pro"
+  },
+  {
+    "id": "youmind-nano-banana-pro:8cecfb2cae6e59ee",
     "sourceId": "youmind-nano-banana-pro",
     "title": "游戏素材 - 体素游戏美术模型对比",
     "prompt": "等距视角 3D 像素艺术体素游戏截图，黄昏时分的微型浮空岛城市，方块状立方建筑透出明亮窗光，一条像素龙盘旋于高塔周围，游戏 HUD 左上角显示“LEVEL 3”、右上角显示“SCORE 004200”，体素光影清晰锐利，复古色彩鲜艳明快，1:1 正方形构图。",
@@ -2686,7 +2707,7 @@
     "imageModel": "nano-banana-pro"
   },
   {
-    "id": "youmind-nano-banana-pro:44a74141927443b6",
+    "id": "youmind-nano-banana-pro:122fd4a5a471b21d",
     "sourceId": "youmind-nano-banana-pro",
     "title": "游戏素材 - 《侠盗一号》风格电影剧照提示词",
     "prompt": "照片级写实 Rogue One/Andor 电影剧照。精准参考面部：相同的骨骼结构、肤色，以及毛孔/雀斑/痣/疤痕等细节。粗粝低饱和度的军事科幻风格：工业灰、脏橙色、橄榄绿、冰冷的机库光线、帆布与金属质感、胶片颗粒感。",
@@ -2707,7 +2728,7 @@
     "imageModel": "nano-banana-pro"
   },
   {
-    "id": "youmind-nano-banana-pro:aad974fc351aec1f",
+    "id": "youmind-nano-banana-pro:0c358d58e3c4f790",
     "sourceId": "youmind-nano-banana-pro",
     "title": "游戏素材 - 雨林野生动物观测站微缩世界",
     "prompt": "以艺术森林朋克风格呈现的雨林盆地野生动物观测站奇幻微缩世界。",
@@ -2728,7 +2749,7 @@
     "imageModel": "nano-banana-pro"
   },
   {
-    "id": "youmind-nano-banana-pro:8ce69a2f4b27e05b",
+    "id": "youmind-nano-banana-pro:dfbe0bcdd569a09e",
     "sourceId": "youmind-nano-banana-pro",
     "title": "游戏素材 - 可爱毛毡青蛙场景",
     "prompt": "一个可爱的 3D 毛毡质感场景，描绘了一只卡通风格的青蛙坐在池塘里的大荷叶上。青蛙呈绿色，有着大而富有表现力的眼睛和灿烂的笑容。它头戴一顶小叶子做的帽子，上面点缀着一颗浆果，肩上还斜挎着一个小包。青蛙的右手拿着一朵黄色的小花。池塘里布满了荷叶、粉色和黄色的睡莲以及色彩斑斓的鹅卵石。背景是一片郁郁葱葱、生机勃勃的风景，有起伏的山丘、奇异的植物，以及柔和发光的日落天空和蓬松的云朵。萤火虫和瓢虫散布在整个场景中，增添了魔法般的氛围。整体画面具有异想天开和迷人的感觉，采用柔和的光线和粉彩配色方案。",
@@ -2749,7 +2770,7 @@
     "imageModel": "nano-banana-pro"
   },
   {
-    "id": "youmind-nano-banana-pro:971ed2b66828d636",
+    "id": "youmind-nano-banana-pro:f8fa871e65604d97",
     "sourceId": "youmind-nano-banana-pro",
     "title": "游戏素材 - 机械忧郁微距人像提示词",
     "prompt": "{\n  \"vibe_title_en\": \"Mechanical Melancholy\",\n  \"master_prompt\": \"极致特写微距人像。主角是一位忧郁的神童，画面紧凑地聚焦于脸部的一侧。一个高度精细、具有实体质感的黄铜钟表机械装置，带有罗马数字刻度，如破碎的面罩般弯曲覆盖在额头和眉骨上，部分遮挡了头部上方，但露出一只充满表现力且悲伤的眼睛。眼睛反射着温暖、布满尘埃的环境光。主角的手指沾染着深色墨水和石墨痕迹，正轻柔地触碰一只悬停在脸颊附近的超写实金色机械蜂鸟。他们身穿一件厚重华丽的红黑相间立领夹克，饰有金线刺绣。温暖的定向伦勃朗光线穿透密集、充满尘埃的空气，照亮漂浮的微尘。使用 Hasselblad H6D-100c 拍摄，配备 120mm 微距镜头，光圈 f/2.8，极浅景深将背景虚化为柔和的橄榄灰色。Kodak Portra 400 胶片模拟效果，皮肤毛孔细节极度丰富，金属具有真实的物理重量感，电影级明暗对照法，纯粹的摄影超现实主义。\",\n  \"meta\": {\n    \"intent\": \"摄影超现实主义，情感微距人像\",\n    \"priorities\": \"微观细节，触觉真实感，电影级暖光，模拟胶片质感\",\n    \"device_profile\": \"Hasselblad H6D-100c 搭配 120mm 微距镜头\"\n  },\n  \"frame\": {\n    \"aspect\": \"3:4\",\n    \"composition\": \"极致特写微距，聚焦于一只眼睛和脸部侧面，填满画面\",\n    \"layout\": \"非中心构图，焦点在可见的眼睛上，钟表机械在顶部边缘淡入深度散景，手指从底部进入画面\",\n    \"camera_angle\": \"正面平视，亲密的眼平视角\",\n    \"tilt_roll_degrees\": \"0\"\n  },\n  \"subject\": {\n    \"gender\": \"女性\",\n    \"identity\": \"忧郁的神童\",\n    \"demographics\": \"普世特征，年轻却背负重担\",\n    \"face\": \"苍白，皮肤毛孔细节极度丰富，一只眼睛可见，展现出强烈的悲伤专注，上半脸部分被黄铜钟表机构覆盖\",\n    \"hair\": \"向后梳理出画框，处于焦外\",\n    \"body\": \"仅可见肩膀和颈部，穿着厚重的结构化面料\",\n    \"expression\": \"悲伤的专注，沉重的情感分量，内在的忧郁\",\n    \"pose\": \"头部静止，双手抬至脸部附近，沾满墨水的手指细腻地与一只小型金色机械鸟互动\"\n  },\n  \"wardrobe_accessories\": {\n    \"garments\": [\n      {\n        \"item\": \"立领夹克\",\n        \"material\": \"厚织锦缎\",\n        \"color\": \"深绯红色与黑色\",\n        \"fit\": \"结构化，剪裁合体\"\n      }\n    ],\n    \"accessories\": [\n      {\n        \"item\": \"带罗马数字刻度的破碎钟表面罩\",\n        \"color\": \"做旧黄铜与金色\",\n        \"material\": \"机加工金属，玻璃\",\n        \"brand_style\": \"前卫制表工艺，实用特效道具\"\n      },\n      {\n        \"item\": \"机械蜂鸟\",\n        \"color\": \"金色\",\n        \"material\": \"抛光黄铜与微型齿轮\",\n        \"brand_style\": \"工匠动态珠宝\"\n      }\n    ]\n  },\n  \"environment\": {\n    \"setting\": \"一个隐秘、布满灰尘的钟表匠工作室或神童的避难所\",\n    \"surfaces\": \"柔和、暗淡的橄榄灰色背景，完全虚化\",\n    \"depth\": \"极浅景深，模糊虹膜焦平面后方毫米处的一切\",\n    \"atmosphere\": \"温暖、厚重、充满尘埃的空气，伴有被照亮的漂浮微粒\",\n    \"lens_interaction\": \"柔和的光学暗角，微距压缩感\"\n  },\n  \"lighting\": {\n    \"key\": \"温暖的定向伦勃朗光照射在可见的眼睛和脸颊上\",\n    \"fill\": \"微妙的银色反光以保留钟表机械中的阴影细节\",\n    \"rim\": \"柔和的金色背光突出漂浮的尘埃微粒和机械鸟的边缘\",\n    \"shadows\": \"深邃的电影级明暗对照，丰富的黑色\",\n    \"color_temperature\": \"暖色调（约 3200K - 4000K）\",\n    \"sensor_flare\": \"无，高度控制的影棚布光\"\n  },\n  \"camera\": {\n    \"lens_type\": \"微距定焦\",\n    \"focal_length\": \"120mm\",\n    \"aperture\": \"f/2.8\",\n    \"focus\": \"锐利对焦于可见眼睛的虹膜和沾墨指尖\",\n    \"sensor_format\": \"中画幅\",\n    \"perspective_distortion\": \"零畸变，高压缩感\"\n  },\n  \"post_processing\": {\n    \"color\": \"柔和、浓郁的宝石色调，与温暖的黄铜和苍白的肤色形成对比\",\n    \"tonality\": \"高对比度，高光部分呈现胶片般的柔和过渡\",\n    \"texture\": \"Kodak Portra 400 颗粒感，有机瑕疵，微观皮肤纹理\",\n    \"digital_sharpening\": \"无，纯粹的光学锐度\",\n    \"chromatic_aberration\": \"由于微距镜头特性，黄铜齿轮边缘有非常轻微的色差紫边\"\n  },\n  \"negative_specifications\": [\n    \"霓虹灯\",\n    \"数字绘画\",\n    \"插画\",\n    \"CGI\",\n    \"塑料皮肤\",\n    \"平光\",\n    \"广角镜头\",\n    \"全身像\",\n    \"陈词滥调的咖啡馆\",\n    \"现代办公室\"\n  ]\n}",
@@ -2773,7 +2794,7 @@
     "imageModel": "nano-banana-pro"
   },
   {
-    "id": "youmind-nano-banana-pro:3ea1b351ebcb4637",
+    "id": "youmind-nano-banana-pro:5d5f67c3389712b8",
     "sourceId": "youmind-nano-banana-pro",
     "title": "游戏素材 - Q 版 RPG 游戏活动主视觉图",
     "prompt": "[游戏活动]\n- 游戏标题：{argument name=\"game title\" default=\"寻宝大冒险！\"}\n- 游戏概述/特色：{argument name=\"description\" default=\"在宏大的冒险岛上寻找宝藏！\"}\n- 类型/副标题：{argument name=\"subtext\" default=\"RPG 冒险动作游戏！\"}\n\n[质量、制作、构图]\n- 风格：适用于日本移动端 RPG 或休闲游戏活动公告的插画。色彩鲜艳、充满欢乐的奇幻世界。\n- 主体：可爱的 Q 版角色（Q 版英雄或吉祥物）面带微笑打开宝箱。金色的光芒和魔法粒子从宝箱中溢出，耀眼夺目。\n- 背景：蓝天白云，以及郁郁葱葱的奇幻世界中的岛屿或森林。\n- 排版（适用于 GPT-image / Nano Banana Pro）：在屏幕中央或顶部设计 {argument name=\"game title\" default=\"寻宝大冒险！\"} 的奇幻风格装饰性标志，并以易于阅读的布局添加 {argument name=\"description\" default=\"在宏大的冒险岛上寻找宝藏！\"} 和 {argument name=\"subtext\" default=\"RPG 冒险动作游戏！\"}。\n- 色彩/光影：明亮、高饱和度的奇幻色彩，带有魔法光泽和柔和的阴影描绘。\n\n[严格的布局和输出限制（必填）]\n- 输出成品设计本身，填满整个屏幕。设计内的背景和场景描述（墙壁、空间、阴影等）可遵循正文中的说明。\n- 禁止事项：带相框的海报照片、钉在墙上的照片、放在桌子或纸上的样机照片、纸张边缘的透视变形或投影。\n- 输出成品平面 2D 设计本身，填满整个画布。允许使用上述描述的设计内部场景元素。绝对禁止海报样机照片：禁止使用相框、禁止拍摄贴在墙上或桌上的海报、禁止在艺术品边缘出现透视变形或投影。\n\n- 宽高比：--ar 16:9",
@@ -2794,7 +2815,7 @@
     "imageModel": "nano-banana-pro"
   },
   {
-    "id": "youmind-nano-banana-pro:fd8ba940c677935d",
+    "id": "youmind-nano-banana-pro:d6b52e032335c447",
     "sourceId": "youmind-nano-banana-pro",
     "title": "游戏素材 - 表现主义写实混合风格肖像",
     "prompt": "请使用附带的对象，尽可能还原其外观。创作一幅精致的混合风格肖像，将表现主义的绘画写实感与精致的电影感数字插画融为一体。\n\n保留原图的面部结构、表情、姿势、发型、服装、比例以及整体构图。运用清晰且自信的笔触、细腻的干笔纹理、精致的草图线条、柔和的罩染效果、自然的颜料变化以及手工绘制的瑕疵感——避免过于平滑或喷枪质感。\n\n使用温暖的桃色、珊瑚色、赤陶色、琥珀色和柔粉色作为肤色基调，并辅以淡紫色、李子色、炭灰色、浓咖啡色和板岩色的丰富阴影。在额头、鼻梁、颧骨和嘴唇处添加逼真的明亮高光。\n\n使双眼极具表现力和电影感，刻画出细腻的虹膜、逼真的倒影、精致的睫毛以及受控的眼神光。保持面部解剖结构的真实、优雅与成熟感。\n\n头发和服装应呈现出流畅的绘画笔触、自然的褶皱、局部的锐利细节以及松散的表现主义边缘。运用富有戏剧性的定向电影光效、微妙的轮廓光、大气阴影以及柔和的背景融合效果。\n\n整体风格：融合了传统手绘质感、印象派写实主义、优雅线条、电影级质感与精致角色插画的高端当代概念艺术。\n\n极简的大气背景，采用高级暖中性色调，重点聚焦于面部与眼神。\n\n长宽比：9:16 竖屏。",
@@ -2813,30 +2834,6 @@
     "author": "Zayan",
     "sourceUrl": "https://x.com/HustleXR/status/2096951148515385716",
     "createdAt": "2026-09-07",
-    "imageMode": "",
-    "imageModel": "nano-banana-pro"
-  },
-  {
-    "id": "youmind-nano-banana-pro:94ccf8a9fa3e6ae2",
-    "sourceId": "youmind-nano-banana-pro",
-    "title": "游戏素材 - Artifact Diorama SQL 生成",
-    "prompt": "16:9 select * from artifact_diorama_archives where subject_media = '{argument name=\"media title\" default=\"[media_title]\"}' and base_structure = 'giant_hollowed_out_sphere_cracked_open' and exterior_shell = ( select manuscript_aesthetic, typography from cultural_heritage_db where lore = '{argument name=\"media title\" default=\"[media_title]\"}' format as 'flat_2d_painted_fresco_and_calligraphy_on_outer_curve' ) and interior_payload_strata = array[ (level: 'upper_apex', asset: 'infer_climactic_fortress_or_throne({argument name=\"media title\" default=\"[media_title]\"})'), (level: 'middle_caverns', asset: 'infer_mythological_creatures_and_terrain({argument name=\"media title\" default=\"[media_title]\"})'), (level: 'lower_basin', asset: 'infer_epic_armies_and_waterways({argument name=\"media title\" default=\"[media_title]\"})') ] and materials = 'carved_stone_wood_and_antiqued_gold' and optical_engine = 'macro_photography_depth_of_field';",
-    "description": "一种独特的 SQL 风格生成提示词，用于创建具有雕刻石材和古董金质感的复杂建筑立体模型。",
-    "coverUrl": "https://cms-assets.youmind.com/media/1788591089116_kxrbhm_HRNiaKKWgAMDb5j.jpg",
-    "referenceImageUrls": [
-      "https://cms-assets.youmind.com/media/1788591089116_kxrbhm_HRNiaKKWgAMDb5j.jpg",
-      "https://cms-assets.youmind.com/media/1788591089335_efreai_HRNie_0WYAEf0-w.jpg",
-      "https://cms-assets.youmind.com/media/1788591089108_nyvlo1_HRNiqRUXsAI99Ou.jpg",
-      "https://cms-assets.youmind.com/media/1788591089932_h8rq63_HRNiysxXwAUodN4.jpg"
-    ],
-    "tags": [
-      "nano-banana-pro",
-      "游戏素材",
-      "Gadgetify"
-    ],
-    "author": "Gadgetify",
-    "sourceUrl": "https://x.com/Gdgtify/status/2095942973934698532",
-    "createdAt": "2026-09-04",
     "imageMode": "",
     "imageModel": "nano-banana-pro"
   }
